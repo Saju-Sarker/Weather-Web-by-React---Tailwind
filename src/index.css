@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200..800&display=swap");
+@import "tailwindcss";
+
+@layer utilities {
+  .placeName {
+    font-family: Gemunu Libre, Arial, Helvetica, sans-serif;
+  }
+  .mytDropShadow {
+    filter: drop-shadow(0px 0px 20px #696969);
+  }
+  .description {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 600;
+  }
+  .clouds {
+    background: linear-gradient(to bottom, #ff9045 50%, #e68200 50%);
+  }
+
+  .humidity {
+    background: linear-gradient(to bottom, #ff4545 50%, #e60000 50%);
+  }
+
+  .pressure {
+    background: linear-gradient(to bottom, #4570ff 50%, #0058e6 50%);
+  }
+}
